@@ -1,0 +1,7 @@
+.jumbotron {
+    background: url(../assets/outerSpaceNASAUnsplash.jpg) center center;
+    background-size: cover;
+    height: 75vh;
+    /* width: 100vw; */
+    text-align: center;
+}

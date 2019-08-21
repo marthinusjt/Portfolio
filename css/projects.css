@@ -1,0 +1,59 @@
+#projects {
+    margin-top: 72px;
+    /* background-color: lightseagreen; */
+}
+
+#projects > h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+#cssCreature {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#staticLayout {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#gitHub {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#edamamRecipe {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#blueBadge {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#redBadge {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#underConstrction {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    background-color: black;
+    margin-bottom: 50px;
+}

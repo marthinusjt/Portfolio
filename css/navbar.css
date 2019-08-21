@@ -1,0 +1,8 @@
+.navbar {
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: underline overline;
+}

@@ -1,0 +1,19 @@
+footer {
+    height: auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+#footerHome {
+    color: black;
+    font-size: 1.1em;
+}
+
+#linkedIn {
+    height: 40px;
+    width: 40px;
+}
+
+p {
+    margin-bottom: 8px;
+}

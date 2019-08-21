@@ -1,3 +1,73 @@
-body {
-    
+#aboutMe {
+    margin-top: 72px;
 }
+
+#aboutMe > h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+.aboutSection {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+
+/* #picOfMe {
+    float: left;
+} */
+
+#resumeIcon {
+    height: 30px;
+    width: 30px;
+    /* background-color: white; */
+}
+
+#skillSet > h1  {
+    font-size: 5em;
+    text-align: center;
+}
+
+
+/* ICON SECTION */
+#images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#html5 {
+    height: 80px;
+    width: 80px;
+}
+
+#css3 {
+    height: 80px;
+    width: 70px;
+}
+
+#js {
+    height: 80px;
+    width: 80px;
+}
+
+#fireBase {
+    height: 80px;
+    width: 80px;
+}
+
+#gitHubIcon {
+    height: 80px;
+    width: 80px;
+}
+
+/* INCLUDE WHEN NODEJS SKILLSET IS THERE */
+/* #nodejs{
+    height: 80px;
+    width: 164px;
+} */
+
+/* ALMOST GOT THIS TO WORK */
+/* #images > p > img {
+    height: 80px;
+    width: 80px;
+} */

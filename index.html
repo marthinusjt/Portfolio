@@ -11,71 +11,143 @@
 
     <!-- CSS FILES -->
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Cinzel|Pacifico|Rock+Salt|Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
 
-
+    <!-- HOME -->
+    <div id="home"></div>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <!-- sticky-top -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
         <a class="navbar-brand" href="#">
             <img src="assets/guyFawkesAvatar.jpg" width="50" height="50" alt=""">
         </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-              <!-- SEARCH BAR -->
-              <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form> -->
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutMe">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li> -->
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#projects">Projects</a>
+                        <a class="dropdown-item" href="#aboutMe">About Me</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#contact">Contact</a>
+                    </div>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+            </ul>
+            <!-- SEARCH BAR -->
+            <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
     </nav>
 
     <!-- HEADER -->
     <div class="jumbotron jumbotron-fluid">
+        <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">    
+            <source src="" data-src="assets/beautifulWeather.mp4" type="video/mp4">
+        </video>
         <div class="container">
-            <h1 class="display-4">Marthinus Taljaard</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4">Marthinus J. Taljaard</h1>
+            <p class="lead"></p>
         </div>
     </div>
 
     <!-- ABOUT -->
-    <div id="about">
+    <div id="aboutMe">
+        <div class="container">
+            <div class="row">
+                <div id="aboutMe" class="col-sm-12">
+                    <h1>ABOUT ME</h1>
+                </div>
+                <!-- COL ADD UP TO 12 -->
+                <div class="col-sm-4" id="picOfMe">
+                    <p><img src="./assets/theUltimatePrinceWarriorByBarrettBiggers.jpg" alt=""></p>
+                </div>
+                <div class="aboutSection col-sm-8">
+                    <div class="row-sm">
+                        <p>Hey there, my name is Marthinus Taljaard. I was born in South Africa and moved to the United States in 1998.</p>
+                    </div> 
+                    <div class="row-sm">
+                        <p>After I graduated High School, I went to college for a year. Not enjoying what I was studying, decided to enlist in the United States Air Force. I served for five and a half years on active duty and was trained to be a medical laboratory technician. Afterwards, I went back to college for an aviation management degree.</p>
+                    </div>
+                    <div class="row-sm">
+                        <p>After college, I went back to what I was comfortable with and found a job as a medical laboratory technician. I wanted to spend more time with my family but was unable to do so with my current job due to working third shift and decided that I needed to step out of my comfort zone and apply myself. With this, I enrolled at <a href="https://elevenfifty.org/?gclid=CjwKCAjw1_PqBRBIEiwA71rmtTkE3cC_z2FgJeeITnlVp9ksYDs6fY3vKud246xs2rAWvP8VBt6unBoCJhkQAvD_BwE">Eleven Fifty Academy</a> to study JavaScript.</p>
+                    </div>
+                    <div class="row-sm">
+                        <p><a href="https://drive.google.com/file/d/1z9ynoPczxmGXovY8YOqXoMF4pg4R2Mhs/view?usp=sharing" alt="Resume" target="_blank"><img src="./assets/resumeIcon.png" alt="Resume Icon" id="resumeIcon">Download my Resume here.</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-12" id="skillSet">
+                    <h1>Skill Set</h1>
+                </div>
+                <div class="col-sm-12" id="images">
+                    <p><img src="./assets/htmlTest.png" alt="" id="html5"></p>
+                    <p><img src="./assets/css3Test.jpg" alt="" id="css3"></p>
+                    <p><img src="./assets/js.jpg" alt="" id="js"></p>
+                    <p><img src="./assets/fireBase.png" alt="" id="fireBase"></p>
+                    <p><img src="./assets/githubIcon.png" alt="" id="gitHubIcon"></p>
+                    <!-- <p><img src="./assets/nodeJSBlack.png" alt="" id="nodejs"></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects" class="bg-info">
         <div class="container">
             <div class="row">
                 <!-- ADD UP TO 12 -->
+                <div id="projects" class="col-sm-12">
+                    <h1>Projects</h1>
+                </div>
                 <div class="col-sm-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="https://codepen.io/marthinusjt/pen/PMEqgg" target="_blank"><img src="./assets/cssCreature.png" alt="CSS Creature" id="cssCreature"></a>
                 </div>
-                <div class="col-sm-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-sm-4">
+                    <a href="https://marthinusjt.github.io/staticLayout/" target="_blank"><img src="./assets/huluTv.jpg" alt="Static Layout" id="staticLayout"></a>
                 </div>
-                <div class="col-sm-3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-sm-4">
+                    <a href="https://github.com/marthinusjt?tab=repositories" target="_blank"><img src="./assets/gitHubLogo.png" alt="GitHub" id="gitHub"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://jsaug2019-api-edamam.firebaseapp.com/" target="_blank"><img src="./assets/edamamRecipes.png" alt="Edamam API" id="edamamRecipe"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="blank" target="_blank"><img src="./assets/blueBadge.png" alt="Blue Badge" id="blueBadge"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="blank" target="_blank"><img src="./assets/redBadge.png" alt="Red Badge" id="redBadge"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="blank" target="_blank"><img src="./assets/underConstruction.png" alt="Under Construction" id="underConstrction"></a>
                 </div>
             </div>
         </div>
@@ -84,7 +156,7 @@
     <!-- CONTACT -->
     <div id="contact">
         <div class="container">
-            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <h2 class="text-center text-uppercase" id="contactMe">Contact Me</h2>
             <br>
             <div class="row">
                 <div class="col-12">
@@ -100,7 +172,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                                <textarea class="form-control" rows="5" name="message" id="message" placeholder="Little did you know, that you are going to hire me." required=""></textarea>
                                 <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                             </div>
                         </fieldset>
@@ -115,6 +187,19 @@
             </div>
         </div>
     </div>
+
+    <!-- FOOTER -->
+    <footer class="footerTest bg-info">
+        <!-- EXAMPLES
+        <p>I will display &euro;</p>
+        <p>I will display &#8364;</p>
+        <p>I will display &#x20AC;</p>
+        -->
+        <p>Copyright &copy; 2019 Marthinus J. Taljaard</p>
+        <a href="https://www.linkedin.com/in/marthinus-taljaard-a8196256/" target="_blank"><img src="./assets/linkedinBlue.png" alt="" id="linkedIn"></a>
+        <br>
+        <a href="#home" id="footerHome">Home</a>
+    </footer>
     
     <!-- REG JS -->
     <script src="js/main.js"></script>

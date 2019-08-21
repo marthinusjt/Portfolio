@@ -8,8 +8,17 @@
 @import "projects.css";
 @import "variables.css";
 
+/* FONT CHEAT SHEET */
+/* 
+font-family: 'Pacifico', cursive;
+font-family: 'Cinzel', serif; 
+font-family: 'Satisfy', cursive;
+font-family: 'Beth Ellen', cursive;
+font-family: 'Rock Salt', cursive;
+*/
+
 
 body {
     background-color: var(--teal);
+    font-family: 'Cinzel', serif; 
 }
-

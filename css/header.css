@@ -7,11 +7,15 @@
 }
  */
 
+ .lead {
+  font-size: 2em;
+}
+
 .jumbotron {
   position: relative;
   overflow: hidden;
   background-color:black;
-  height: 93vh;
+  height: 90vh;
   margin-bottom: 0;
 }
 

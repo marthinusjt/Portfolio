@@ -1,5 +1,5 @@
 #aboutMe {
-    margin-top: 72px;
+    margin-top: 8%;
 }
 
 #aboutMe > h1 {
@@ -34,44 +34,42 @@
 
 
 /* ICON SECTION */
-#images {
+.images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
-#html5 {
+/* #html5 {
     height: 80px;
     width: 80px;
-}
+} */
 
-#css3 {
+/* #css3 {
     height: 80px;
     width: 70px;
-}
+} */
 
-#js {
+/* #js {
     height: 80px;
     width: 80px;
-}
+} */
 
-#fireBase {
+/* #fireBase {
     height: 80px;
     width: 80px;
-}
+} */
 
-#gitHubIcon {
+/* #gitHubIcon {
     height: 80px;
     width: 80px;
-}
+} */
 
-/* INCLUDE WHEN NODEJS SKILLSET IS THERE */
-/* #nodejs{
+#nodejs{
     height: 80px;
     width: 164px;
-} */
+}
 
-/* ALMOST GOT THIS TO WORK */
-/* #images > p > img {
+img {
     height: 80px;
     width: 80px;
-} */
+}

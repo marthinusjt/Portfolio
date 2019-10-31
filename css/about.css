@@ -1,6 +1,5 @@
 #aboutMe {
     margin-top: 8%;
-    font-family: 'Crimson Text', serif;
 }
 
 #aboutMe > h1 {
@@ -11,6 +10,7 @@
 .aboutSection {
     font-weight: 700;
     font-size: 1.2em;
+    font-family: 'Crimson Text', serif;
 }
 
 #myself {
